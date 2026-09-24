@@ -1,0 +1,1087 @@
+<html lang="tr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Öznur Göler Beauty Center | İzmir Güzellik & Bakım Stüdyosu</title>
+  <meta name="description" content="Öznur Göler Beauty Center İzmir. Protez Tırnak, İpek Kirpik, Kalıcı Makyaj ve Altın Oran Kaş Tasarımı ile güzelliğinize özel lüks dokunuş. Randevu için tıklayın.">
+  
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cream: '#FAF7F2',
+              warm: '#F3ECE4',
+              sand: '#E9DEC3',
+              gold: '#C5A059',
+              goldDark: '#A6823C',
+              goldLight: '#E6D3A3',
+              rose: '#D8B4A6',
+              roseLight: '#F2E4DE',
+              dark: '#1C1A18',
+              charcoal: '#2D2926',
+              muted: '#716B64'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Luxury Styling */
+    ::selection {
+      background-color: #C5A059;
+      color: #ffffff;
+    }
+    
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #DFBE7B 0%, #C5A059 50%, #9F7930 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-overlay {
+      background: linear-gradient(180deg, 
+        rgba(28, 26, 24, 0.75) 0%, 
+        rgba(28, 26, 24, 0.65) 45%, 
+        rgba(28, 26, 24, 0.92) 100%);
+    }
+
+    .gold-border-glow {
+      border: 1px solid rgba(197, 160, 89, 0.35);
+      transition: all 0.3s ease;
+    }
+    .gold-border-glow:hover {
+      border-color: rgba(197, 160, 89, 0.85);
+      box-shadow: 0 10px 30px -10px rgba(197, 160, 89, 0.25);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #FAF7F2;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C5A059;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #A6823C;
+    }
+
+    /* Modal Animation */
+    .fade-in {
+      animation: fadeIn 0.25s ease-out forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.97); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body class="bg-brand-cream text-brand-dark font-sans antialiased overflow-x-hidden">
+
+  <!-- ================= TOP NOTICE BAR ================= -->
+  <div class="bg-brand-dark text-brand-sand text-xs py-2 px-4 border-b border-brand-gold/20">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-4 text-xs font-medium">
+        <span><i class="fa-regular fa-clock text-brand-gold mr-1.5"></i>Haftanın 7 Günü: 10:00 – 20:00</span>
+        <span class="hidden md:inline text-brand-gold/40">|</span>
+        <span class="hidden md:inline"><i class="fa-solid fa-location-dot text-brand-gold mr-1.5"></i>İzmir</span>
+      </div>
+      <div class="flex items-center gap-4 text-xs">
+        <a href="https://instagram.com/oznurgolerbeauty" target="_blank" rel="noopener noreferrer" class="hover:text-brand-gold transition-colors flex items-center gap-1.5">
+          <i class="fa-brands fa-instagram text-brand-gold"></i> @oznurgolerbeauty
+        </a>
+        <span class="text-brand-gold/40">•</span>
+        <a href="tel:+905334100156" class="hover:text-brand-gold transition-colors font-semibold tracking-wide">
+          <i class="fa-solid fa-phone text-brand-gold mr-1"></i> +90 533 410 01 56
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= 1. STICKY HEADER ================= -->
+  <header id="main-header" class="sticky top-0 z-40 bg-brand-cream/95 backdrop-blur-md transition-all duration-300 border-b border-brand-warm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-full border border-brand-gold flex items-center justify-center bg-brand-dark text-brand-gold font-serif text-xl font-bold tracking-tight shadow-sm group-hover:bg-brand-gold group-hover:text-brand-dark transition-all duration-300">
+          ÖG
+        </div>
+        <div class="flex flex-col">
+          <span class="font-serif text-xl sm:text-2xl font-bold tracking-wider text-brand-dark uppercase leading-none">
+            Öznur Göler
+          </span>
+          <span class="text-[9px] sm:text-[10px] tracking-[0.25em] font-semibold text-brand-muted uppercase mt-1">
+            Beauty Center
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium tracking-wide">
+        <a href="#hizmetler" class="text-brand-dark hover:text-brand-gold transition-colors">Hizmetlerimiz</a>
+        <a href="#neden-biz" class="text-brand-dark hover:text-brand-gold transition-colors">Neden Biz?</a>
+        <a href="#galeri" class="text-brand-dark hover:text-brand-gold transition-colors">Galeri</a>
+        <a href="#yorumlar" class="text-brand-dark hover:text-brand-gold transition-colors">Müşteri Deneyimi</a>
+        <a href="#sss" class="text-brand-dark hover:text-brand-gold transition-colors">SSS</a>
+        <a href="#iletisim" class="text-brand-dark hover:text-brand-gold transition-colors">İletişim & Konum</a>
+      </nav>
+
+      <!-- CTA Button Desktop -->
+      <div class="hidden sm:flex items-center gap-3">
+        <a href="#randevu" class="inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-goldDark text-white px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold tracking-wider uppercase shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>Randevu Al</span>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="lg:hidden p-2.5 text-brand-dark hover:text-brand-gold focus:outline-none" aria-label="Menüyü Aç">
+        <i id="menu-icon" class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-brand-cream border-t border-brand-warm px-6 py-6 shadow-xl transition-all duration-300">
+      <nav class="flex flex-col space-y-4 text-base font-medium">
+        <a href="#hizmetler" class="mobile-nav-link py-2 border-b border-brand-warm/60 flex items-center justify-between">
+          <span>Hizmetlerimiz</span> <i class="fa-solid fa-chevron-right text-xs text-brand-gold"></i>
+        </a>
+        <a href="#neden-biz" class="mobile-nav-link py-2 border-b border-brand-warm/60 flex items-center justify-between">
+          <span>Neden Biz?</span> <i class="fa-solid fa-chevron-right text-xs text-brand-gold"></i>
+        </a>
+        <a href="#galeri" class="mobile-nav-link py-2 border-b border-brand-warm/60 flex items-center justify-between">
+          <span>Uygulama Galerisi</span> <i class="fa-solid fa-chevron-right text-xs text-brand-gold"></i>
+        </a>
+        <a href="#yorumlar" class="mobile-nav-link py-2 border-b border-brand-warm/60 flex items-center justify-between">
+          <span>Danışan Deneyimleri</span> <i class="fa-solid fa-chevron-right text-xs text-brand-gold"></i>
+        </a>
+        <a href="#sss" class="mobile-nav-link py-2 border-b border-brand-warm/60 flex items-center justify-between">
+          <span>Sıkça Sorulan Sorular</span> <i class="fa-solid fa-chevron-right text-xs text-brand-gold"></i>
+        </a>
+        <a href="#iletisim" class="mobile-nav-link py-2 flex items-center justify-between">
+          <span>Bizi Kolay Bulun & İletişim</span> <i class="fa-solid fa-chevron-right text-xs text-brand-gold"></i>
+        </a>
+        <div class="pt-4 flex flex-col gap-3">
+          <a href="#randevu" class="mobile-nav-link w-full text-center bg-brand-gold text-white py-3 rounded-full font-semibold uppercase tracking-wider text-xs shadow-md">
+            Hemen Randevu Al
+          </a>
+          <a href="https://wa.me/905334100156" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-[#25D366] hover:bg-[#20b858] text-white py-3 rounded-full font-semibold uppercase tracking-wider text-xs shadow-md flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp Danışma Hattı
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= 2. HERO SECTION ================= -->
+  <section class="relative min-h-[90vh] flex items-center justify-center bg-brand-dark text-white overflow-hidden">
+    <!-- Hero Background Image from Reference -->
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="https://www.designarena.ai/u/e2f66739-5ae0-495b-96a3-b58fd0e10670" 
+        alt="Öznur Göler Beauty Center Dış Cephe ve Stüdyo Girişi" 
+        class="w-full h-full object-cover object-center scale-105 transform animate-pulse duration-1000"
+        style="animation-duration: 8s;"
+      />
+      <!-- Luxury Dark/Warm Gradient Overlay -->
+      <div class="absolute inset-0 hero-overlay"></div>
+    </div>
+
+    <!-- Content Container -->
+    <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 py-20 text-center flex flex-col items-center">
+      
+      <!-- Top Badge -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-cream/10 backdrop-blur-md border border-brand-gold/40 text-brand-goldLight text-xs sm:text-sm tracking-widest uppercase mb-6">
+        <i class="fa-solid fa-sparkles text-brand-gold"></i>
+        <span>İzmir'de Zarafet & Profesyonel Bakım</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6 text-white">
+        Güzelliğinize <br class="hidden sm:inline">
+        <span class="italic font-normal font-serif text-brand-goldLight">Altın Oran</span> Dokunuşu
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="max-w-2xl text-base sm:text-lg md:text-xl text-gray-200 font-light leading-relaxed mb-10">
+        Kişiselleştirilmiş tırnak estetiği, ipek kirpik mimarisi ve kalıcı makyaj uzmanlığı. İzmir'in kalbinde, hijyen ve zarafeti buluşturan ayrıcalıklı stüdyo deneyimi.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+        <a href="#randevu" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-gold hover:bg-brand-goldDark text-white px-8 py-4 rounded-full text-sm font-semibold tracking-wider uppercase transition-all duration-300 shadow-lg hover:shadow-brand-gold/30 hover:scale-105">
+          <i class="fa-regular fa-calendar-check text-base"></i>
+          <span>Online Randevu Oluştur</span>
+        </a>
+        <a href="https://wa.me/905334100156" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full text-sm font-semibold tracking-wider uppercase transition-all duration-300">
+          <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i>
+          <span>WhatsApp Hızlı Danışma</span>
+        </a>
+      </div>
+
+      <!-- Trust Badges Under Hero -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-16 pt-10 border-t border-white/15 w-full text-center">
+        <div class="flex flex-col items-center">
+          <span class="text-brand-gold font-serif text-2xl font-bold">7 Gün</span>
+          <span class="text-xs text-gray-300 uppercase tracking-wider mt-1">10:00 – 20:00 Açık</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-brand-gold font-serif text-2xl font-bold">%100</span>
+          <span class="text-xs text-gray-300 uppercase tracking-wider mt-1">Steril Ekipman</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-brand-gold font-serif text-2xl font-bold">Uzman</span>
+          <span class="text-xs text-gray-300 uppercase tracking-wider mt-1">Sertifikalı Kadro</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-brand-gold font-serif text-2xl font-bold">Kişiye Özel</span>
+          <span class="text-xs text-gray-300 uppercase tracking-wider mt-1">Altın Oran Tasarım</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 3. HİZMETLERİMİZ ================= -->
+  <section id="hizmetler" class="py-20 sm:py-28 bg-brand-cream relative">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-gold block mb-2">Özel Hizmet Kataloğu</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-dark mb-4">Ustalıkla Tasarlanan Güzellik</h2>
+        <div class="w-16 h-0.5 bg-brand-gold mx-auto mb-4"></div>
+        <p class="text-brand-muted text-sm sm:text-base">
+          Her uygulamada yüksek kalite standartları, Avrupa menşeili dermatolojik ürünler ve yüzünüze özel tasarım teknikleri uyguluyoruz.
+        </p>
+      </div>
+
+      <!-- Services Grid (4 Core Services) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Service 1: Protez Tırnak -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 gold-border-glow shadow-sm flex flex-col justify-between relative group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-14 h-14 rounded-2xl bg-brand-warm flex items-center justify-center text-brand-gold text-2xl group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                <i class="fa-solid fa-hand-sparkles"></i>
+              </div>
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-warm text-brand-dark">Popüler Uygulama</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-brand-dark mb-2">Protez Tırnak & Nail Art</h3>
+            <p class="text-brand-muted text-sm leading-relaxed mb-6">
+              Jel protez tırnak, tips uygulama, tırnak güçlendirme, medikal manikür ve güncel trendlere uygun el çizimi sanatsal nail art tasarımları.
+            </p>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-brand-dark/80 mb-6">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Jel Sistem & Akrilik Alternatifleri</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Dayanıklı ve Doğal Görünümlü Form</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> 3-4 Haftaya Varan Kusursuz Kalıcılık</li>
+            </ul>
+          </div>
+          <a href="#randevu" class="inline-flex items-center justify-between w-full pt-4 border-t border-brand-warm text-sm font-semibold text-brand-gold hover:text-brand-goldDark transition-colors">
+            <span>Hemen Randevu Al</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+        </div>
+
+        <!-- Service 2: İpek Kirpik -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 gold-border-glow shadow-sm flex flex-col justify-between relative group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-14 h-14 rounded-2xl bg-brand-warm flex items-center justify-center text-brand-gold text-2xl group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                <i class="fa-regular fa-eye"></i>
+              </div>
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-warm text-brand-dark">Derin Bakışlar</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-brand-dark mb-2">İpek Kirpik & Lifting</h3>
+            <p class="text-brand-muted text-sm leading-relaxed mb-6">
+              Göz yapınıza ve doğal kirpik yoğunluğunuza uygun Klasik, Volume, Mega Volume ve Keratin Kirpik Lifting uygulamaları ile etkileyici bakışlar.
+            </p>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-brand-dark/80 mb-6">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Ağırlık Yapmayan Ultra Hafif İpek Lifler</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Medikal Sınıf Hipoalerjenik Yapıştırıcı</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Bakış Formuna Özel Haritalandırma (Mapping)</li>
+            </ul>
+          </div>
+          <a href="#randevu" class="inline-flex items-center justify-between w-full pt-4 border-t border-brand-warm text-sm font-semibold text-brand-gold hover:text-brand-goldDark transition-colors">
+            <span>Hemen Randevu Al</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+        </div>
+
+        <!-- Service 3: Kalıcı Makyaj -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 gold-border-glow shadow-sm flex flex-col justify-between relative group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-14 h-14 rounded-2xl bg-brand-warm flex items-center justify-center text-brand-gold text-2xl group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </div>
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-warm text-brand-dark">Zahmetsiz Şıklık</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-brand-dark mb-2">Kalıcı Makyaj (Permanent Makeup)</h3>
+            <p class="text-brand-muted text-sm leading-relaxed mb-6">
+              Dudak renklendirme (Lip blush), dipliner ve babyliner işlemleri ile günün her anında canlı, taze ve kusursuz bir görünüm kazanın.
+            </p>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-brand-dark/80 mb-6">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Doğal Organik Pigmentler (Renk Değişimi Yapmaz)</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Kişisel Cilt Alt Tonuna Özel Renk Seçimi</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Acısız ve Konforlu Seans Süreci</li>
+            </ul>
+          </div>
+          <a href="#randevu" class="inline-flex items-center justify-between w-full pt-4 border-t border-brand-warm text-sm font-semibold text-brand-gold hover:text-brand-goldDark transition-colors">
+            <span>Hemen Randevu Al</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+        </div>
+
+        <!-- Service 4: Altın Oran Kaş -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 gold-border-glow shadow-sm flex flex-col justify-between relative group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-14 h-14 rounded-2xl bg-brand-warm flex items-center justify-center text-brand-gold text-2xl group-hover:bg-brand-gold group-hover:text-white transition-colors duration-300">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-brand-warm text-brand-dark">İmza Tasarım</span>
+            </div>
+            <h3 class="font-serif text-2xl font-bold text-brand-dark mb-2">Altın Oran Kaş Tasarımı & Microblading</h3>
+            <p class="text-brand-muted text-sm leading-relaxed mb-6">
+              Yüz kemik yapınız ve göz simetriniz baz alınarak matematiksel altın oran pergel ölçümü ile hazırlanan, mikro kıl tekniğiyle uygulanan kaş dizaynı.
+            </p>
+            <ul class="space-y-2.5 text-xs sm:text-sm text-brand-dark/80 mb-6">
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Yüz Hatlarına Birebir Uyumlu Simetri Çizimi</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Kıl Tekniği & Pudralama Kombinasyonu</li>
+              <li class="flex items-center gap-2"><i class="fa-solid fa-check text-brand-gold text-xs"></i> Kaş Laminasyonu & Besleyici Vitamin Bakımı</li>
+            </ul>
+          </div>
+          <a href="#randevu" class="inline-flex items-center justify-between w-full pt-4 border-t border-brand-warm text-sm font-semibold text-brand-gold hover:text-brand-goldDark transition-colors">
+            <span>Hemen Randevu Al</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 4. NEDEN BİZ (WHY US) ================= -->
+  <section id="neden-biz" class="py-20 bg-brand-warm/60 border-y border-brand-sand/50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-gold block mb-2">Ayrıcalıklı Standartlarımız</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-dark mb-4">Neden Öznur Göler Beauty?</h2>
+        <div class="w-16 h-0.5 bg-brand-gold mx-auto"></div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        
+        <!-- Feature 1 -->
+        <div class="bg-white p-6 rounded-2xl text-center flex flex-col items-center gold-border-glow shadow-sm">
+          <div class="w-14 h-14 rounded-full bg-brand-warm flex items-center justify-center text-brand-gold text-2xl mb-4">
+            <i class="fa-solid fa-pump-medical"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold mb-2">Klinik Hijyen</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Tek kullanımlık sarf malzemeler ve hastane standartlarında otoklav sterilizasyonu ile maksimum güvenlik.
+          </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-white p-6 rounded-2xl text-center flex flex-col items-center gold-border-glow shadow-sm">
+          <div class="w-14 h-14 rounded-full bg-brand-warm flex items-center justify-center text-brand-gold text-2xl mb-4">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold mb-2">Sertifikalı Uzmanlık</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Uluslararası eğitimli estetisyenler ve sürekli güncellenen modern güzellik teknolojileri.
+          </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-white p-6 rounded-2xl text-center flex flex-col items-center gold-border-glow shadow-sm">
+          <div class="w-14 h-14 rounded-full bg-brand-warm flex items-center justify-center text-brand-gold text-2xl mb-4">
+            <i class="fa-solid fa-gem"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold mb-2">Premium Ürünler</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Tırnak, kirpik ve pigment uygulamalarında yalnızca orijinal, alerji testi yapılmış seçkin markalar.
+          </p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="bg-white p-6 rounded-2xl text-center flex flex-col items-center gold-border-glow shadow-sm">
+          <div class="w-14 h-14 rounded-full bg-brand-warm flex items-center justify-center text-brand-gold text-2xl mb-4">
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <h4 class="font-serif text-xl font-bold mb-2">Kesintisiz 7 Gün Hizmet</h4>
+          <p class="text-xs text-brand-muted leading-relaxed">
+            Yoğun temponuza uyum sağlayan 10:00 - 20:00 arası randevu esnekliği ve dakik seans planlaması.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 5. GALERİ (PORTFOLIO) ================= -->
+  <section id="galeri" class="py-20 sm:py-28 bg-brand-cream">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10">
+        <span class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-gold block mb-2">Çalışmalarımız</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-dark mb-4">Uygulama Vitrini</h2>
+        <div class="w-16 h-0.5 bg-brand-gold mx-auto mb-4"></div>
+        <p class="text-brand-muted text-sm sm:text-base">
+          Stüdyomuzda danışanlarımıza uyguladığımız gerçek sonuçlardan ilham alın.
+        </p>
+      </div>
+
+      <!-- Gallery Filter Tabs -->
+      <div class="flex flex-wrap justify-center gap-2 mb-10">
+        <button class="gallery-tab active-tab px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-dark text-brand-sand transition-all" data-filter="all">Tümü</button>
+        <button class="gallery-tab px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-warm text-brand-dark hover:bg-brand-gold hover:text-white transition-all" data-filter="tirnak">Protez Tırnak</button>
+        <button class="gallery-tab px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-warm text-brand-dark hover:bg-brand-gold hover:text-white transition-all" data-filter="kirpik">İpek Kirpik</button>
+        <button class="gallery-tab px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider bg-brand-warm text-brand-dark hover:bg-brand-gold hover:text-white transition-all" data-filter="kas">Kalıcı Makyaj & Kaş</button>
+      </div>
+
+      <!-- Gallery Grid with Clean Placeholders -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="gallery-grid">
+        
+        <!-- Item 1 -->
+        <div class="gallery-item group relative overflow-hidden rounded-2xl aspect-[4/5] bg-brand-warm shadow-md" data-category="tirnak">
+          <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80" alt="Nail Art ve Jel Protez Tırnak" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <span class="text-xs uppercase tracking-widest text-brand-gold font-semibold">Protez Tırnak</span>
+            <h4 class="font-serif text-xl font-bold">French & Nude Jel Tasarım</h4>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="gallery-item group relative overflow-hidden rounded-2xl aspect-[4/5] bg-brand-warm shadow-md" data-category="kirpik">
+          <img src="https://images.unsplash.com/photo-1583001800448-f80e9a7db9d1?auto=format&fit=crop&w=800&q=80" alt="Volume İpek Kirpik Uygulaması" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <span class="text-xs uppercase tracking-widest text-brand-gold font-semibold">İpek Kirpik</span>
+            <h4 class="font-serif text-xl font-bold">Volume Soft Cat-Eye</h4>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="gallery-item group relative overflow-hidden rounded-2xl aspect-[4/5] bg-brand-warm shadow-md" data-category="kas">
+          <img src="https://images.unsplash.com/photo-1597225244660-1cd128c64284?auto=format&fit=crop&w=800&q=80" alt="Altın Oran Kaş Microblading" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <span class="text-xs uppercase tracking-widest text-brand-gold font-semibold">Altın Oran Kaş</span>
+            <h4 class="font-serif text-xl font-bold">Microblading Kıl Tekniği</h4>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="gallery-item group relative overflow-hidden rounded-2xl aspect-[4/5] bg-brand-warm shadow-md" data-category="tirnak">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80" alt="Lüks Nail Art Dizayn" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <span class="text-xs uppercase tracking-widest text-brand-gold font-semibold">Protez Tırnak</span>
+            <h4 class="font-serif text-xl font-bold">Minimalist Altın Varak Detay</h4>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="gallery-item group relative overflow-hidden rounded-2xl aspect-[4/5] bg-brand-warm shadow-md" data-category="kas">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Dudak Renklendirme Kalıcı Makyaj" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <span class="text-xs uppercase tracking-widest text-brand-gold font-semibold">Kalıcı Makyaj</span>
+            <h4 class="font-serif text-xl font-bold">Doğal Dudak Renklendirme</h4>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="gallery-item group relative overflow-hidden rounded-2xl aspect-[4/5] bg-brand-warm shadow-md" data-category="kirpik">
+          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80" alt="Keratin Kirpik Lifting" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+          <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-brand-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 text-white">
+            <span class="text-xs uppercase tracking-widest text-brand-gold font-semibold">Kirpik Bakımı</span>
+            <h4 class="font-serif text-xl font-bold">Keratin Lifting & Botoks</h4>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Instagram Showcase Banner -->
+      <div class="mt-12 text-center">
+        <a href="https://instagram.com/oznurgolerbeauty" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] text-white font-medium text-sm shadow-md hover:shadow-lg transition-transform hover:-translate-y-0.5">
+          <i class="fa-brands fa-instagram text-lg"></i>
+          <span>Daha Fazla Güncel Çalışma İçin @oznurgolerbeauty Takip Edin</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 6. GOOGLE YORUMLARI & DANIŞAN MEMNUNİYETİ ================= -->
+  <section id="yorumlar" class="py-20 bg-brand-warm/40 border-t border-brand-sand/50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="flex flex-col md:flex-row items-center justify-between mb-12 gap-6">
+        <div>
+          <span class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-gold block mb-2">Google Deneyimleri</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark">Danışanlarımızın Gözünden</h2>
+        </div>
+        
+        <!-- Google Harita Link / İnceleme Butonu -->
+        <a href="https://maps.app.goo.gl/kg14Cpx7ndy15CKu9" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-white border border-brand-gold/30 text-brand-dark hover:border-brand-gold shadow-sm transition-all text-xs sm:text-sm font-semibold">
+          <i class="fa-brands fa-google text-red-500 text-lg"></i>
+          <span>Google Haritalar'da Değerlendirin / İnceleyin</span>
+          <i class="fa-solid fa-arrow-up-right-from-square text-xs text-brand-gold"></i>
+        </a>
+      </div>
+
+      <!-- Customer Cards (Clean Editorial Testimonials) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="bg-white p-7 rounded-2xl gold-border-glow shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-brand-gold text-sm mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-brand-dark/90 text-sm leading-relaxed italic mb-6">
+              "Öznur Hanım ve ekibinin ilgisi harika. Protez tırnakta tırnak etlerime hiç zarar vermeden bu kadar temiz çalışan başka bir yer görmedim. Stüdyo tertemiz ve huzur verici."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-brand-warm">
+            <div class="w-9 h-9 rounded-full bg-brand-roseLight text-brand-dark font-serif font-bold flex items-center justify-center text-sm">
+              S.A.
+            </div>
+            <div>
+              <h5 class="text-xs font-bold text-brand-dark">Selin A.</h5>
+              <span class="text-[11px] text-brand-muted">Doğrulanmış Danışan • Protez Tırnak</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-7 rounded-2xl gold-border-glow shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-brand-gold text-sm mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-brand-dark/90 text-sm leading-relaxed italic mb-6">
+              "Altın oran kaş tasarımında yüzüme en uygun formu buldular. Asla yapay durmuyor, herkes kendi kaşım sanıyor. Güler yüz ve kahve ikramı için de ayrıca teşekkürler."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-brand-warm">
+            <div class="w-9 h-9 rounded-full bg-brand-goldLight/50 text-brand-dark font-serif font-bold flex items-center justify-center text-sm">
+              B.K.
+            </div>
+            <div>
+              <h5 class="text-xs font-bold text-brand-dark">Buse K.</h5>
+              <span class="text-[11px] text-brand-muted">Doğrulanmış Danışan • Altın Oran Kaş</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white p-7 rounded-2xl gold-border-glow shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-1 text-brand-gold text-sm mb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="text-brand-dark/90 text-sm leading-relaxed italic mb-6">
+              "İpek kirpiklerimi 4 haftadır sorunsuz kullanıyorum, dökülme veya batma hissi sıfır. İzmir'de kaliteli ve güvenilir bir merkez arayanlara tereddütsüz öneririm."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-brand-warm">
+            <div class="w-9 h-9 rounded-full bg-brand-warm text-brand-dark font-serif font-bold flex items-center justify-center text-sm">
+              E.Y.
+            </div>
+            <div>
+              <h5 class="text-xs font-bold text-brand-dark">Ece Y.</h5>
+              <span class="text-[11px] text-brand-muted">Doğrulanmış Danışan • İpek Kirpik</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 7. INTERACTIVE RANDEVU FORMU ================= -->
+  <section id="randevu" class="py-20 sm:py-28 bg-brand-cream relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="bg-brand-dark text-white rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden border border-brand-gold/30">
+        
+        <!-- Decorative Ambient Blur -->
+        <div class="absolute -right-20 -top-20 w-72 h-72 bg-brand-gold/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -left-20 -bottom-20 w-72 h-72 bg-brand-rose/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="relative z-10 text-center max-w-xl mx-auto mb-10">
+          <span class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-gold block mb-2">Hızlı & Kolay Rezervasyon</span>
+          <h2 class="font-serif text-3xl sm:text-5xl font-bold mb-3">Randevunuzu Oluşturun</h2>
+          <p class="text-gray-300 text-sm">
+            İstediğiniz hizmeti ve saati seçin, bilgileriniz doğrudan WhatsApp rezervasyon hattımıza aktarılsın.
+          </p>
+        </div>
+
+        <!-- Dynamic WhatsApp Form -->
+        <form id="appointment-form" class="relative z-10 space-y-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            
+            <!-- Ad Soyad -->
+            <div>
+              <label class="block text-xs font-medium text-brand-sand uppercase tracking-wider mb-2" for="client-name">Adınız Soyadınız *</label>
+              <input type="text" id="client-name" required placeholder="Örn: Ayşe Yılmaz" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3.5 text-white placeholder-gray-400 focus:outline-none focus:border-brand-gold text-sm transition-colors">
+            </div>
+
+            <!-- Telefon -->
+            <div>
+              <label class="block text-xs font-medium text-brand-sand uppercase tracking-wider mb-2" for="client-phone">Telefon Numaranız *</label>
+              <input type="tel" id="client-phone" required placeholder="Örn: 053X XXX XX XX" class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3.5 text-white placeholder-gray-400 focus:outline-none focus:border-brand-gold text-sm transition-colors">
+            </div>
+
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            
+            <!-- Hizmet Seçimi -->
+            <div>
+              <label class="block text-xs font-medium text-brand-sand uppercase tracking-wider mb-2" for="service-select">İstenen Hizmet *</label>
+              <select id="service-select" required class="w-full bg-brand-charcoal border border-white/20 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-gold text-sm transition-colors cursor-pointer">
+                <option value="" disabled selected>Hizmet Seçiniz</option>
+                <option value="Protez Tırnak & Nail Art">Protez Tırnak & Nail Art</option>
+                <option value="İpek Kirpik & Lifting">İpek Kirpik & Lifting</option>
+                <option value="Kalıcı Makyaj">Kalıcı Makyaj (Dudak/Eyeliner)</option>
+                <option value="Altın Oran Kaş Tasarımı">Altın Oran Kaş Tasarımı</option>
+                <option value="Birden Fazla Hizmet / Danışma">Birden Fazla Hizmet / Danışma</option>
+              </select>
+            </div>
+
+            <!-- Tercih Edilen Tarih -->
+            <div>
+              <label class="block text-xs font-medium text-brand-sand uppercase tracking-wider mb-2" for="booking-date">Tarih Tercihi *</label>
+              <input type="date" id="booking-date" required class="w-full bg-brand-charcoal border border-white/20 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-gold text-sm transition-colors">
+            </div>
+
+            <!-- Tercih Edilen Saat Aralığı -->
+            <div>
+              <label class="block text-xs font-medium text-brand-sand uppercase tracking-wider mb-2" for="booking-time">Saat Aralığı</label>
+              <select id="booking-time" class="w-full bg-brand-charcoal border border-white/20 rounded-xl px-4 py-3.5 text-white focus:outline-none focus:border-brand-gold text-sm transition-colors cursor-pointer">
+                <option value="10:00 - 12:00">10:00 - 12:00</option>
+                <option value="12:00 - 14:00">12:00 - 14:00</option>
+                <option value="14:00 - 16:00">14:00 - 16:00</option>
+                <option value="16:00 - 18:00">16:00 - 18:00</option>
+                <option value="18:00 - 20:00">18:00 - 20:00</option>
+              </select>
+            </div>
+
+          </div>
+
+          <!-- Ek Not -->
+          <div>
+            <label class="block text-xs font-medium text-brand-sand uppercase tracking-wider mb-2" for="booking-note">Özel İstek / Belirtmek İstedikleriniz (Opsiyonel)</label>
+            <textarea id="booking-note" rows="2" placeholder="Örn: İlk defa yaptırıyorum, önceki tırnağımın çıkarılması gerekiyor..." class="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-brand-gold text-sm transition-colors"></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="pt-4 text-center">
+            <button type="submit" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1eb858] text-white px-10 py-4 rounded-full text-sm font-bold uppercase tracking-wider shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5">
+              <i class="fa-brands fa-whatsapp text-xl"></i>
+              <span>Randevu Talebini WhatsApp ile İlet</span>
+            </button>
+            <p class="text-[11px] text-gray-400 mt-3">
+              <i class="fa-solid fa-lock text-brand-gold mr-1"></i> Bilgileriniz gizli tutulur, doğrudan onay için iletişime geçilir.
+            </p>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 8. SIKÇA SORULAN SORULAR (SSS) ================= -->
+  <section id="sss" class="py-20 bg-brand-warm/40 border-t border-brand-sand/50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-xl mx-auto mb-12">
+        <span class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-gold block mb-2">Merak Edilenler</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-brand-dark mb-3">Sıkça Sorulan Sorular</h2>
+        <div class="w-16 h-0.5 bg-brand-gold mx-auto"></div>
+      </div>
+
+      <!-- FAQ Accordion List -->
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="bg-white rounded-2xl border border-brand-warm overflow-hidden shadow-sm">
+          <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span class="font-serif text-lg font-bold text-brand-dark">Protez tırnak uygulaması doğal tırnağa zarar verir mi?</span>
+            <i class="fa-solid fa-plus text-brand-gold transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-6">
+            <p class="text-sm text-brand-muted pb-5 leading-relaxed">
+              Uzman ellerde ve profesyonel törpüleme teknikleriyle yapıldığında protez tırnak doğal tırnak plağına kesinlikle zarar vermez. Aksine, tırnak yeme alışkanlığı olan veya tırnakları kolay kırılan kişiler için koruyucu bir kalkan görevi görür.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="bg-white rounded-2xl border border-brand-warm overflow-hidden shadow-sm">
+          <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span class="font-serif text-lg font-bold text-brand-dark">İpek kirpik kullanım ömrü ne kadardır ve bakımı nasıl olmalı?</span>
+            <i class="fa-solid fa-plus text-brand-gold transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-6">
+            <p class="text-sm text-brand-muted pb-5 leading-relaxed">
+              Kendi doğal kirpiğinizin dökülme döngüsüne bağlı olarak ortalama 3-5 hafta kusursuz kalır. Formunun ve dolgunluğunun sürekliliği için 3 haftada bir ara bakım önerilir. Yağ bazlı temizleyicilerden kaçınmak ömrünü uzatır.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="bg-white rounded-2xl border border-brand-warm overflow-hidden shadow-sm">
+          <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span class="font-serif text-lg font-bold text-brand-dark">Altın Oran Kaş Tasarımı nasıl belirlenir?</span>
+            <i class="fa-solid fa-plus text-brand-gold transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-6">
+            <p class="text-sm text-brand-muted pb-5 leading-relaxed">
+              Burun kanatları, göz pınarı ve elmacık kemiklerinizin anatomik orantısı özel pergel yardımıyla milimetrik olarak ölçülür. Çizim ön provası danışanımız tarafından onaylandıktan sonra microblading veya pudralama işlemine geçilir.
+            </p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="bg-white rounded-2xl border border-brand-warm overflow-hidden shadow-sm">
+          <button class="faq-btn w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+            <span class="font-serif text-lg font-bold text-brand-dark">Randevusuz gelebiliyor muyuz?</span>
+            <i class="fa-solid fa-plus text-brand-gold transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content max-h-0 overflow-hidden transition-all duration-300 ease-in-out px-6">
+            <p class="text-sm text-brand-muted pb-5 leading-relaxed">
+              Haftanın 7 günü 10:00 - 20:00 saatleri arasında hizmet vermekteyiz. Size özel zaman ayırabilmemiz ve bekleme yaşamamanız adına önceden WhatsApp veya telefon üzerinden randevu oluşturmanızı önemle rica ederiz.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 9. BİZİ KOLAY BULUN & İLETİŞİM ================= -->
+  <section id="iletisim" class="py-20 sm:py-28 bg-brand-cream relative">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-semibold uppercase tracking-[0.25em] text-brand-gold block mb-2">Lokasyon & Ulaşım</span>
+        <h2 class="font-serif text-3xl sm:text-5xl font-bold text-brand-dark mb-4">Bizi Kolay Bulun</h2>
+        <div class="w-16 h-0.5 bg-brand-gold mx-auto mb-4"></div>
+        <p class="text-brand-muted text-sm sm:text-base">
+          Stüdyomuz İzmir'de merkezi, ferah ve kolay ulaşılabilir bir konumda sizleri ağırlamaktan mutluluk duyar.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        
+        <!-- Left Column: Facade Image Card (Original Photo asset preserved without distortion) -->
+        <div class="lg:col-span-6 rounded-3xl overflow-hidden shadow-lg border border-brand-warm relative group flex flex-col justify-end bg-brand-dark min-h-[380px]">
+          <img 
+            src="https://www.designarena.ai/u/e2f66739-5ae0-495b-96a3-b58fd0e10670" 
+            alt="Öznur Göler Beauty Center Mağaza Girişi ve Tabelası" 
+            class="w-full h-full object-cover object-center absolute inset-0 transition-transform duration-700 group-hover:scale-105"
+            loading="lazy"
+          />
+          <div class="relative z-10 bg-gradient-to-t from-brand-dark via-brand-dark/80 to-transparent p-6 sm:p-8 text-white">
+            <span class="text-xs uppercase tracking-widest text-brand-gold font-bold">Stüdyo Dış Cephe Görünümü</span>
+            <h3 class="font-serif text-2xl font-bold mt-1 text-white">Öznur Göler Beauty Center</h3>
+            <p class="text-xs text-gray-300 mt-2">
+              Tabelamızı ve zarif cephemizi gördüğünüzde doğru adrestesiniz!
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column: Business Details & Navigation Actions -->
+        <div class="lg:col-span-6 bg-white rounded-3xl p-8 sm:p-10 gold-border-glow shadow-sm flex flex-col justify-between">
+          
+          <div class="space-y-6">
+            
+            <!-- Address / City -->
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-brand-warm flex-shrink-0 flex items-center justify-center text-brand-gold text-xl">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-brand-dark">Adres & Şehir</h4>
+                <p class="text-sm text-brand-muted mt-0.5">İzmir, Türkiye</p>
+                <p class="text-xs text-brand-muted mt-1">Detaylı açık adres ve rota için Google Haritalar butonunu kullanabilirsiniz.</p>
+              </div>
+            </div>
+
+            <!-- Working Hours -->
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-brand-warm flex-shrink-0 flex items-center justify-center text-brand-gold text-xl">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-brand-dark">Çalışma Saatleri</h4>
+                <p class="text-sm font-semibold text-brand-dark mt-0.5">Haftanın 7 Günü Kesintisiz</p>
+                <p class="text-xs text-brand-gold font-medium mt-0.5">10:00 – 20:00 Arası</p>
+              </div>
+            </div>
+
+            <!-- Phone & Contact -->
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-brand-warm flex-shrink-0 flex items-center justify-center text-brand-gold text-xl">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h4 class="font-serif text-lg font-bold text-brand-dark">Telefon & WhatsApp</h4>
+                <a href="tel:+905334100156" class="text-sm font-semibold text-brand-dark hover:text-brand-gold transition-colors block mt-0.5">
+                  +90 533 410 01 56
+                </a>
+                <a href="https://instagram.com/oznurgolerbeauty" target="_blank" rel="noopener noreferrer" class="text-xs text-brand-muted hover:text-brand-gold transition-colors flex items-center gap-1 mt-1">
+                  <i class="fa-brands fa-instagram text-brand-gold"></i> @oznurgolerbeauty
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Route / Maps Action Buttons -->
+          <div class="pt-8 border-t border-brand-warm mt-8 flex flex-col sm:flex-row gap-3">
+            <a href="https://maps.app.goo.gl/kg14Cpx7ndy15CKu9" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 bg-brand-dark hover:bg-brand-charcoal text-white py-3.5 px-6 rounded-full text-xs font-semibold uppercase tracking-wider transition-all shadow-md">
+              <i class="fa-solid fa-diamond-turn-right text-brand-gold text-sm"></i>
+              <span>Google Haritalarda Aç & Yol Tarifi</span>
+            </a>
+            <a href="https://wa.me/905334100156" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20b858] text-white py-3.5 px-6 rounded-full text-xs font-semibold uppercase tracking-wider transition-all shadow-md">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+              <span>Konum İste</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= 10. FOOTER ================= -->
+  <footer class="bg-brand-dark text-white pt-16 pb-12 border-t border-brand-gold/20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Brand Info -->
+        <div class="md:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-full border border-brand-gold flex items-center justify-center bg-brand-dark text-brand-gold font-serif text-lg font-bold">
+              ÖG
+            </div>
+            <div>
+              <span class="font-serif text-xl font-bold tracking-wider uppercase block">Öznur Göler</span>
+              <span class="text-[9px] tracking-[0.25em] font-semibold text-brand-goldLight uppercase">Beauty Center</span>
+            </div>
+          </div>
+          <p class="text-xs text-gray-400 max-w-md leading-relaxed">
+            İzmir'de protez tırnak, ipek kirpik, kalıcı makyaj ve altın oran kaş tasarımı ile estetik standartlarını yeniden tanımlayan butik güzellik stüdyosu.
+          </p>
+          <div class="flex items-center gap-3 pt-2">
+            <a href="https://instagram.com/oznurgolerbeauty" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-white/10 hover:bg-brand-gold text-white flex items-center justify-center transition-colors text-sm" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/905334100156" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-white/10 hover:bg-[#25D366] text-white flex items-center justify-center transition-colors text-sm" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://maps.app.goo.gl/kg14Cpx7ndy15CKu9" target="_blank" rel="noopener noreferrer" class="w-9 h-9 rounded-full bg-white/10 hover:bg-red-500 text-white flex items-center justify-center transition-colors text-sm" aria-label="Google Maps">
+              <i class="fa-solid fa-location-dot"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-serif text-base font-bold text-brand-sand uppercase tracking-wider mb-4">Hızlı Menü</h4>
+          <ul class="space-y-2 text-xs text-gray-400">
+            <li><a href="#hizmetler" class="hover:text-brand-gold transition-colors">Hizmetlerimiz</a></li>
+            <li><a href="#neden-biz" class="hover:text-brand-gold transition-colors">Ayrıcalıklarımız</a></li>
+            <li><a href="#galeri" class="hover:text-brand-gold transition-colors">Uygulama Galerisi</a></li>
+            <li><a href="#yorumlar" class="hover:text-brand-gold transition-colors">Danışan Yorumları</a></li>
+            <li><a href="#sss" class="hover:text-brand-gold transition-colors">Sıkça Sorulan Sorular</a></li>
+            <li><a href="#randevu" class="hover:text-brand-gold transition-colors">Online Randevu</a></li>
+          </ul>
+        </div>
+
+        <!-- Services List -->
+        <div>
+          <h4 class="font-serif text-base font-bold text-brand-sand uppercase tracking-wider mb-4">Hizmetlerimiz</h4>
+          <ul class="space-y-2 text-xs text-gray-400">
+            <li>Protez Tırnak & Nail Art</li>
+            <li>İpek Kirpik & Lifting</li>
+            <li>Kalıcı Makyaj & Dudak Renklendirme</li>
+            <li>Altın Oran Kaş Tasarımı</li>
+            <li>Microblading & Pudralama</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+        <p>© <span id="current-year"></span> Öznur Göler Beauty Center. Tüm Hakları Saklıdır.</p>
+        <div class="flex items-center gap-6">
+          <span class="text-brand-gold font-medium"><i class="fa-solid fa-location-dot text-xs mr-1"></i> İzmir / Türkiye</span>
+          <a href="#" class="hover:text-brand-sand transition-colors">Yukarı Çık <i class="fa-solid fa-arrow-up ml-1 text-[10px]"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING MOBILE WHATSAPP BUTTON ================= -->
+  <div class="fixed bottom-6 right-6 z-50">
+    <a href="https://wa.me/905334100156" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 bg-[#25D366] hover:bg-[#20b858] text-white px-4 py-3 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 group" aria-label="WhatsApp Randevu Hattı">
+      <i class="fa-brands fa-whatsapp text-2xl"></i>
+      <span class="text-xs font-bold tracking-wide uppercase hidden sm:inline">Randevu & Bilgi</span>
+    </a>
+  </div>
+
+  <!-- ================= INLINE JAVASCRIPT ================= -->
+  <script>
+    // 1. Current Year in Footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // 2. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      if (mobileMenu.classList.contains('hidden')) {
+        menuIcon.classList.replace('fa-xmark', 'fa-bars');
+      } else {
+        menuIcon.classList.replace('fa-bars', 'fa-xmark');
+      }
+    });
+
+    mobileNavLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuIcon.classList.replace('fa-xmark', 'fa-bars');
+      });
+    });
+
+    // 3. FAQ Accordion Functionality
+    const faqButtons = document.querySelectorAll('.faq-btn');
+
+    faqButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('i');
+
+        // Close all other accordions
+        faqButtons.forEach(otherBtn => {
+          if (otherBtn !== button) {
+            otherBtn.setAttribute('aria-expanded', 'false');
+            otherBtn.nextElementSibling.style.maxHeight = null;
+            otherBtn.querySelector('i').classList.replace('fa-minus', 'fa-plus');
+          }
+        });
+
+        if (!isExpanded) {
+          button.setAttribute('aria-expanded', 'true');
+          content.style.maxHeight = content.scrollHeight + 'px';
+          icon.classList.replace('fa-plus', 'fa-minus');
+        } else {
+          button.setAttribute('aria-expanded', 'false');
+          content.style.maxHeight = null;
+          icon.classList.replace('fa-minus', 'fa-plus');
+        }
+      });
+    });
+
+    // 4. Gallery Category Filter
+    const filterTabs = document.querySelectorAll('.gallery-tab');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Change active style
+        filterTabs.forEach(t => {
+          t.classList.remove('bg-brand-dark', 'text-brand-sand');
+          t.classList.add('bg-brand-warm', 'text-brand-dark');
+        });
+        tab.classList.add('bg-brand-dark', 'text-brand-sand');
+        tab.classList.remove('bg-brand-warm', 'text-brand-dark');
+
+        const filterValue = tab.getAttribute('data-filter');
+
+        galleryItems.forEach(item => {
+          if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 5. Booking Form -> WhatsApp Integration
+    const form = document.getElementById('appointment-form');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById('client-name').value.trim();
+      const phone = document.getElementById('client-phone').value.trim();
+      const service = document.getElementById('service-select').value;
+      const date = document.getElementById('booking-date').value;
+      const time = document.getElementById('booking-time').value;
+      const note = document.getElementById('booking-note').value.trim();
+
+      let message = `Merhaba Öznur Göler Beauty Center, randevu talebinde bulunmak istiyorum:\n\n`;
+      message += `👤 *İsim:* ${name}\n`;
+      message += `📞 *Telefon:* ${phone}\n`;
+      message += `✨ *Hizmet:* ${service}\n`;
+      message += `📅 *Tarih:* ${date}\n`;
+      message += `⏰ *Saat Aralığı:* ${time}\n`;
+      if (note) {
+        message += `📝 *Not:* ${note}\n`;
+      }
+      message += `\nRandevu uygunluğunuzu teyit edebilir misiniz?`;
+
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappURL = `https://wa.me/905334100156?text=${encodedMessage}`;
+      
+      window.open(whatsappURL, '_blank');
+    });
+
+    // Set default minimum date for appointment to today
+    const dateInput = document.getElementById('booking-date');
+    if (dateInput) {
+      const today = new Date().toISOString().split('T')[0];
+      dateInput.min = today;
+    }
+  </script>
+
+</body>
+</html>
